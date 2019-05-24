@@ -8,6 +8,8 @@ namespace steering_wheel_shield {
 
     void begin();
     void reset();
+    void write_command(uint8_t* data, uint8_t n);
+    void fill_screen();
 
 } // namespace steering_wheel_shield
 

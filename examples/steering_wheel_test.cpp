@@ -2,9 +2,12 @@
 
 void setup() {
     steering_wheel_shield::begin();
+    steering_wheel_shield::fill_screen();
 }
 
-void loop() {}
+void loop() {
+    delay(1000);
+}
 
 int main() {
     setup();
